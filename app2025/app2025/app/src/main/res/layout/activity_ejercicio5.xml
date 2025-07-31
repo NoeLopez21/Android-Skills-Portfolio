@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ejercicio5Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_animado"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    tools:context=".Ejercicio5Activity">
+
+    <RadioGroup
+        android:id="@+id/groupPagos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioEfectivo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Efectivo"
+            android:textColor="@color/primaryText" />
+
+        <RadioButton
+            android:id="@+id/radioTarjeta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tarjeta"
+            android:textColor="@color/primaryText" />
+
+        <RadioButton
+            android:id="@+id/radioTransferencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Transferencia"
+            android:textColor="@color/primaryText" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        style="@style/EstiloBotonSecundario"
+        android:layout_marginTop="24dp" />
+
+    <TextView
+        android:id="@+id/lblSeleccion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Método seleccionado:"
+        android:textSize="16sp"
+        android:padding="16dp"
+        android:background="@drawable/rounded_textview"
+        android:textColor="@color/primaryText"
+        android:gravity="center"
+        android:layout_marginTop="24dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al menú"
+        style="@style/EstiloBotonPrincipal"
+        android:layout_marginTop="32dp" />
+
+</LinearLayout>

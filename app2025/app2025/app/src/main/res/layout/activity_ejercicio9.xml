@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLayout9"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/fondo_animado">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Toca un número"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/primaryText"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:id="@+id/contenedorNumeros"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginBottom="24dp" />
+
+    <EditText
+        android:id="@+id/txtNumero"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Números tocados"
+        android:focusable="false"
+        android:cursorVisible="false"
+        android:inputType="text"
+        android:textColor="@color/primaryText"
+        android:backgroundTint="@color/primary"
+        android:textSize="16sp"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBorrar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Borrar"
+        style="@style/EstiloBotonPrincipal"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al menú"
+        style="@style/EstiloBotonSecundario"
+        android:layout_marginTop="12dp" />
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <color name="primary">#6200EE</color>
+    <color name="secondary">#03DAC5</color>
+    <color name="tertiary">#BB86FC</color>
+    <color name="primaryText">#FFFFFF</color>
+    <color name="background">#121212</color>
+    <color name="white">#FFFFFF</color>
+    <color name="fondo1">#1A237E</color>
+    <color name="fondo2">#283593</color>
+    <color name="primaryDark">#3700B3</color>
+
+    <color name="fondo3">#3949AB</color>
+</resources>

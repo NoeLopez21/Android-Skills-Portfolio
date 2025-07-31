@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutEjercicio8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_animado"
+    android:padding="24dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/txtBase"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese la base"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/primaryText"
+        android:backgroundTint="@color/primary"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/txtExponente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ingrese el exponente"
+        android:inputType="numberDecimal"
+        android:layout_marginBottom="16dp"
+        android:textColor="@color/primaryText"
+        android:backgroundTint="@color/primary"
+        android:padding="12dp"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnCalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular Potencia"
+        android:layout_marginBottom="24dp"
+        style="@style/EstiloBotonSecundario" />
+
+    <TextView
+        android:id="@+id/lblResultado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Resultado:"
+        android:textSize="18sp"
+        android:textColor="@color/primaryText"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/rounded_textview"
+        android:padding="12dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Regresar al menú"
+        style="@style/EstiloBotonPrincipal" />
+</LinearLayout>

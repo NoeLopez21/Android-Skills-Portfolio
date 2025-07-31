@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo_animado"
+    tools:context=".Ejercicio2Activity">
+
+    <EditText
+        android:id="@+id/txtTexto"
+        android:hint="Escribe aquí"
+        android:textColor="@color/primaryText"
+        android:backgroundTint="@color/primary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:fontFamily="sans-serif-medium" />
+
+    <TextView
+        android:id="@+id/lblTexto1"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@color/primaryText"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/lblTexto2"
+        android:text=""
+        android:textSize="18sp"
+        android:textColor="@color/primaryText"
+        android:fontFamily="sans-serif"
+        android:layout_marginBottom="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnTraspasa1"
+        android:text="Traspasa 1"
+        style="@style/EstiloBotonSecundario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/btnTraspasa2"
+        android:text="Traspasa 2"
+        style="@style/EstiloBotonSecundario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnRegresar"
+        android:text="Regresar al menú"
+        style="@style/EstiloBotonPrincipal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
+
