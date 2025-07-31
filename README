@@ -1,0 +1,105 @@
+# 📱 Android Skills Portfolio
+
+**Aplicación educativa interactiva que recopila 10 ejercicios Android con funcionalidades modernas, estilos visuales atractivos, autenticación de usuarios y navegación estructurada.**
+
+---
+
+## 👥 Equipo de Desarrollo
+
+| Nombre completo                       
+|----------------------------------------
+| **López Martínez Noé Javier**          
+| **Oliver Gildardo Enríquez Valencia**
+
+---
+
+## 🧩 ¿Qué hace esta aplicación?
+
+Esta app llamada **Android Skills Portfolio** permite al usuario ingresar mediante autenticación básica, navegar entre un menú con 10 ejercicios didácticos y experimentar diversas funcionalidades de programación Android. Fue creada con fines académicos para demostrar el dominio de elementos como `EditText`, `TextView`, `Button`, `Spinner`, `ListView`, `AlertDialog`, `Math`, `Intent`, `SharedPreferences`, entre otros.
+
+---
+
+## ⚙️ Características técnicas
+
+- ✔️ Aplicación Android con Java
+- ✔️ Interfaz visual atractiva con estilos modernos (botones estilizados, fondo animado)
+- ✔️ 10 ejercicios educativos adaptados desde NetBeans a Android Studio
+- ✔️ Uso de `SharedPreferences` para autenticación
+- ✔️ Actividades independientes para cada ejercicio
+- ✔️ Navegación estructurada mediante `Intent`
+- ✔️ Validaciones de entrada y mensajes de alerta amigables
+- ✔️ Separación por capas de diseño (`drawable`, `layout`, `values`)
+- ✔️ Código optimizado con `findViewById` y `setOnClickListener`
+
+---
+
+## 🔐 Inicio de sesión
+
+Al iniciar la app, se presenta la pantalla de login (usuario: `tap2025@example.com`, contraseña: `tap*2025`). Al ingresar correctamente, el usuario accede al **MainActivity**, el menú principal donde se listan los 10 ejercicios.
+
+---
+
+## 🧪 Ejercicios y funcionalidades
+
+| Ejercicio | Funcionalidad                                                                                           |
+|----------|----------------------------------------------------------------------------------------------------------|
+| **1**     | Muestra y oculta textos de nombre y ciudad con botones.                                                  |
+| **2**     | Traspasa texto de un campo a dos etiquetas distintas.                                                    |
+| **3**     | Muestra en tiempo real lo que el usuario escribe, y permite limpiar.                                     |
+| **4**     | Cambia el texto de una etiqueta al pulsar un botón.                                                      |
+| **5**     | Selecciona un método de pago con `RadioGroup` y muestra el resultado.                                    |
+| **6**     | Mueve elementos entre dos listas (`ListView`) simulando selección de materias.                           |
+| **7**     | `Spinner` de números del 0 al 10 que actualiza una etiqueta con el número seleccionado.                  |
+| **8**     | Calcula una potencia a partir de base y exponente ingresados por el usuario.                             |
+| **9**     | Simula una calculadora numérica con botones del 0 al 9 que actualizan un `EditText`.                     |
+| **10**    | Resuelve una ecuación cuadrática con `Math.pow()` y muestra el resultado, incluyendo discriminante.      |
+
+---
+
+## 🧱 Estructura de carpetas
+
+```
+app2025/
+├── java/
+│   └── com.example.app2025/
+│       ├── LoginActivity.java
+│       ├── MainActivity.java
+│       ├── Ejercicio1Activity.java - Ejercicio10Activity.java
+│
+├── res/
+│   ├── layout/
+│   │   ├── activity_login.xml
+│   │   ├── activity_main.xml
+│   │   └── activity_ejercicio1.xml - activity_ejercicio10.xml
+│   ├── drawable/
+│   │   ├── fondo_animado.xml
+│   │   ├── boton_estilo.xml
+│   │   └── selector_boton_numero.xml
+│   ├── values/
+│   │   ├── colors.xml
+│   │   ├── styles.xml
+│   │   ├── strings.xml
+│   │   └── themes.xml
+```
+
+---
+
+## 🌈 Diseño visual aplicado
+
+- Fondo animado suave (`fondo_animado.xml`)
+- Botones estilizados (`boton_estilo.xml`, `selector_boton_numero.xml`)
+- TextView redondeados (`rounded_textview.xml`)
+- Colores modernos en `colors.xml`: tonos violetas, azules, blancos.
+- Estilos en `styles.xml`: separación de botones principales y secundarios.
+
+---
+
+
+
+## 📌 Notas adicionales
+
+- La aplicación fue probada en Android Studio con emuladores Android 11 y 12.
+- En caso de errores, revisar **Logcat** para depuración detallada.
+- Todos los ejercicios están conectados con el menú principal mediante `Intent`.
+
+---
